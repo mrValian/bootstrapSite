@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Prosto+One|Russo+One');
+body {
+  background-color: #cccccc;
+}
+.contain {
+  width: 1280px;
+  margin: 0 auto;
+}
+.navbar {
+  margin-right: -15px;
+  margin-left: -15px;
+  border: none;
+  margin-bottom: 0;
+  background-color: #445161;
+}
+@media all and (min-width: 0) and (max-width: 1200px) {
+  .navbar {
+    border: none;
+  }
+}
+video {
+  width: 100%;
+  height: 720px;
+  position: relative;
+}
+.onVideo {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  width: 60%;
+}
+.wrapText {
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #00f3ff;
+  text-shadow: 0 0 5px #0400ff;
+}
+/*кнопка взята отсюда https://www.bestcssbuttongenerator.com/#/26*/
+.button {
+  margin: 0 auto;
+  display: block;
+  -moz-box-shadow: 0px 0px 22px 4px #fff6af;
+  -webkit-box-shadow: 0px 0px 22px 4px #fff6af;
+  box-shadow: 0px 0px 2px 1px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+  background: -moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background: -webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background: -o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background: -ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23', GradientType=0);
+  background-color: #ffec64;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  border: 2px solid #ffaa22;
+  cursor: pointer;
+  color: #333333;
+  font-family: 'Prosto One', cursive;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 15px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+  outline: none;
+}
+.button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+  background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
+  background-color: #ffab23;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+.phoneWrap {
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+.phoneWrap .contact h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.phoneWrap .contact form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phoneWrap .contact form label {
+  font-weight: 700;
+}
+.phoneWrap .contact form input[type="text"],
+.phoneWrap .contact form input[type="tel"] {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.phoneWrap .contact form input[type="submit"] {
+  margin-left: 5px;
+  height: 34px;
+  background-color: #445161;
+  border-radius: 5px;
+  outline: none;
+}
+.teamsWrap {
+  padding: 50px 200px;
+}
+.teamsWrap h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.teamsWrap .team::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.teamsWrap .team .person {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px 5px 0 0;
+  float: left;
+  position: relative;
+}
+.teamsWrap .team .person img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 25px;
+}
+.teamsWrap .team .person blockquote {
+  padding: 0;
+  margin: 0;
+  border-left: none;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+}
+.teamsWrap .team .person blockquote p {
+  margin-bottom: 0;
+  color: #445161;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+}
+.teamsWrap .team .person::before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: #f5f5f5;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 53px;
+  left: 135px;
+}
+.ourExperience video {
+  object-fit: cover;
+  width: 100%;
+}
+.workWithUs {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.workWithUs::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.workWithUs .workWithUsWrap header {
+  color: #445161;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.workWithUs .workWithUsWrap form {
+  padding: 50px;
+  background-color: #445161;
+  width: 600px;
+}
+.workWithUs .workWithUsWrap form label {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.workWithUs .workWithUsWrap form input[type="text"],
+.workWithUs .workWithUsWrap form input[type="tel"],
+.workWithUs .workWithUsWrap form input[type="time"] {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.workWithUs .workWithUsWrap form input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: 600;
+  outline: none;
+  background-color: #ffffff;
+  color: #445161;
+}
