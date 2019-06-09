@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Company</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Start<span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">Catalog</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+
+        <div class="row">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/slider/business.jpg" alt="business">
+                        <div class="carousel-caption">
+                            First Slider
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/slider/consulting.jpg" alt="consulting">
+                        <div class="carousel-caption">
+                            Second Slider
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="CallBackForm visible-md visible-lg">
+                <form action="" method="post">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="textfield" placeholder="TextField">
+                    <label for="phone">Phone:</label>
+                    <input id="phone" type="text" name="textfield" placeholder="TextField">
+                    <input type="button" name="button" value="Call us">
+                </form>
+            </div>
+        </div>
+
+        <div class="row visible-sm visible-xs">
+            <div class="CallBackFormSecond">
+                <form action="" method="post">
+                    <div class="">
+                        <label for="name">Name:</label><br>
+                        <input id="name" type="text" name="textfield" placeholder="TextField">
+                    </div>
+                    <div class="">
+                        <label for="phone">Phone:</label><br>
+                        <input id="phone" type="text" name="textfield" placeholder="TextField">
+                    </div>
+                    <div class="">
+                        <input type="button" name="button" value="Call us">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2 class="caption">Our services</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3 serviceCol">
+                <div class="services">
+                    <div class="servicesImg">
+                        <img src="images/catalog/services/1.jpg" alt="1">
+                    </div>
+                    <h2 class="servicesCaption">Curabitur ullamcorper ultr</h2>
+                    <p class="servicesText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores autem blanditiis commodi cum dolorem doloremque fuga id in laborum neque nihil, omnis possimus, quas quis ratione repellendus reprehenderit!</p>
+                    <a class="servicesButton" href="#">read more &#8594;</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 serviceCol">
+                <div class="services">
+                    <div class="servicesImg">
+                        <img src="images/catalog/services/2.jpg" alt="2">
+                    </div>
+                    <h2 class="servicesCaption">Curabitur ullamcorper ultr</h2>
+                    <p class="servicesText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores autem blanditiis commodi cum dolorem doloremque fuga id in laborum neque nihil, omnis possimus, quas quis ratione repellendus reprehenderit!</p>
+                    <a class="servicesButton" href="#">read more &#8594;</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 serviceCol">
+                <div class="services">
+                    <div class="servicesImg">
+                        <img src="images/catalog/services/3.jpg" alt="3">
+                    </div>
+                    <h2 class="servicesCaption">Curabitur ullamcorper ultr</h2>
+                    <p class="servicesText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores autem blanditiis commodi cum dolorem doloremque fuga id in laborum neque nihil, omnis possimus, quas quis ratione repellendus reprehenderit!</p>
+                    <a class="servicesButton" href="#">read more &#8594;</a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 serviceCol">
+                <div class="services">
+                    <div class="servicesImg">
+                        <img src="images/catalog/services/4.jpg" alt="4">
+                    </div>
+                    <h2 class="servicesCaption">Curabitur ullamcorper ultr</h2>
+                    <p class="servicesText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores autem blanditiis commodi cum dolorem doloremque fuga id in laborum neque nihil, omnis possimus, quas quis ratione repellendus reprehenderit!</p>
+                    <a class="servicesButton" href="#">read more &#8594;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2 class="caption">Product reviews</h2>
+        </div>
+
+        <div class="row unitCol">
+            <div class="col-sm-5 col-md-4">
+                <div class="review">
+                    <div class="reviewImg">
+                        <img src="images/reviewers/2.jpg" alt="2">
+                    </div>
+                    <div class="reviewAutor">
+                        Author: John Doe, <span>Developer</span>
+                    </div>
+                    <div class="reviewAutorSocial">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 col-md-8">
+                <h2 class="reviewCaption">Alias illo necessitatibus nisi.</h2>
+                <p class="reviewText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores harum laborum possimus similique suscipit vitae! A, aspernatur commodi cupiditate error eveniet explicabo, ipsa libero omnis quae quaerat rem unde velit voluptatum. Alias illo necessitatibus nisi optio pariatur recusandae voluptatibus? Blanditiis eos id iure perferendis possimus tempora ut? Aliquid, optio!</p>
+                <div class="reviewIndexs">
+                    <div class="reviewIndex">
+                        DIGITAL
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewIndex">
+                        BRANDING
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewIndex">
+                        ILLUSTRATION
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewIndex">
+                        PHOTOGRAPHY
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="helpful">Is it this review was helpful:<br class="visible-xs"> Yes <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> No <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></div>
+            </div>
+        </div>
+
+        <div class="row unitCol">
+            <div class="col-sm-5 col-md-4">
+                <div class="review">
+                    <div class="reviewImg">
+                        <img src="images/reviewers/1.jpg" alt="1">
+                    </div>
+                    <div class="reviewAutor">
+                        Author: Jane Doe, <span>Designer</span>
+                    </div>
+                    <div class="reviewAutorSocial">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-behance-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 col-md-8">
+                <h2 class="reviewCaption">Alias illo necessitatibus nisi.</h2>
+                <p class="reviewText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores harum laborum possimus similique suscipit vitae! A, aspernatur commodi cupiditate error eveniet explicabo, ipsa libero omnis quae quaerat rem unde velit voluptatum. Alias illo necessitatibus nisi optio pariatur recusandae voluptatibus? Blanditiis eos id iure perferendis possimus tempora ut? Aliquid, optio!</p>
+                <div class="reviewIndexs">
+                    <div class="reviewIndex">
+                        DIGITAL
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewIndex">
+                        BRANDING
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewIndex">
+                        ILLUSTRATION
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviewIndex">
+                        PHOTOGRAPHY
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="helpful">Is it this review was helpful:<br class="visible-xs"> Yes <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> No <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span></div>
+            </div>
+        </div>
+
+        <div class="row ofiiceWrap">
+            <h2 class="officeCaption">Visit our offices</h2>
+            <div class="addresses">
+                <div class="address col-sm-6 col-md-4">
+                    <div class="addressImg">
+                        <img src="images/offices/1.jpg" alt="1">
+                    </div>
+                    <div class="addressUs">
+                        <h3 class="addressUsCaption">Lorem, Inc.</h3>
+                        1355 Market Street, Suite 900<br>
+                        San Francisco, CA 94103<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </div>
+                    <button class="addressUsButton" data-toggle="modal" data-target="#watchOnMap">Watch on map &#8594;</button>
+                </div>
+                <div class="address col-sm-6 col-md-4">
+                    <div class="addressImg">
+                        <img src="images/offices/2.jpg" alt="2">
+                    </div>
+                    <div class="addressUs">
+                        <h3 class="addressUsCaption">Lorem, Inc.</h3>
+                        1355 Market Street, Suite 900<br>
+                        San Francisco, CA 94103<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </div>
+                    <button class="addressUsButton" data-toggle="modal" data-target="#watchOnMap">Watch on map &#8594;</button>
+                </div>
+                <div class="address col-sm-6 col-md-4">
+                    <div class="addressImg">
+                        <img src="images/offices/3.jpg" alt="3">
+                    </div>
+                    <div class="addressUs">
+                        <h3 class="addressUsCaption">Lorem, Inc.</h3>
+                        1355 Market Street, Suite 900<br>
+                        San Francisco, CA 94103<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </div>
+                    <button class="addressUsButton" data-toggle="modal" data-target="#watchOnMap">Watch on map &#8594;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <footer>
+                Copyright &copy; 2018 Service name · PSD HTML CSS
+            </footer>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="watchOnMap" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7736976.352086502!2d42.37348296915336!3d-18.76155389046772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21d1a4e3ea238545%3A0x5244e3c1977b1388!2z0JzQsNC00LDQs9Cw0YHQutCw0YA!5e0!3m2!1sru!2sua!4v1538652304293" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="packages/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

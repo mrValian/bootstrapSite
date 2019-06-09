@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400|Merriweather:400,700');
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .serviceCol {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+.unitCol {
+  padding: 30px;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-brand {
+  position: relative;
+  bottom: 2px;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.carousel {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.CallBackForm {
+  position: absolute;
+  top: 25%;
+  right: 18%;
+  width: 300px;
+  height: 45%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+.CallBackForm label,
+.CallBackForm input {
+  display: block;
+  width: 100%;
+}
+.CallBackForm label {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.CallBackForm input[type="text"] {
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+}
+.CallBackForm input[type="text"]:focus {
+  border-bottom-color: #28f31b;
+}
+.CallBackForm input[type="button"] {
+  background: none;
+  outline: none;
+  border: 2px solid #ffffff;
+  height: 60px;
+  color: #ffffff;
+}
+.CallBackFormSecond {
+  height: 150px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.CallBackFormSecond form {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.CallBackFormSecond form div {
+  height: 80px;
+  margin: 0 5px;
+  float: left;
+}
+.CallBackFormSecond form label {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.CallBackFormSecond form input[type="text"] {
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+}
+.CallBackFormSecond form input[type="text"]:focus {
+  border-bottom-color: #28f31b;
+}
+.CallBackFormSecond form input[type="button"] {
+  background: none;
+  outline: none;
+  border: 2px solid #ffffff;
+  height: 48px;
+  width: 100px;
+  color: #ffffff;
+}
+@media all and (max-width: 479px) {
+  .CallBackFormSecond form {
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .CallBackFormSecond form {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 479px) {
+  .CallBackFormSecond {
+    height: 300px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .CallBackFormSecond {
+    height: 300px;
+  }
+}
+.caption {
+  padding: 100px;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+.services {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.services img {
+  width: 100%;
+}
+.services .servicesCaption {
+  margin: 10px;
+  font-size: 2rem;
+}
+.services .servicesText {
+  margin: 10px;
+}
+.services .servicesButton {
+  text-decoration: none;
+  display: block;
+  border-top: 1px solid #e2e2e2;
+  padding: 7px 25px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: rgba(226, 226, 226, 0.2);
+  color: #e2e2e2;
+}
+.services .servicesButton:hover {
+  color: #f3c419;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .services {
+    margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .services {
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 479px) {
+  .services {
+    margin-bottom: 20px;
+  }
+}
+.review {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.review img {
+  width: 100%;
+}
+.review .reviewAutor {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 2.5rem;
+}
+.review .reviewAutor span {
+  font-weight: 300;
+  font-style: italic;
+  color: #8a8a8a;
+  font-size: 0.7em;
+}
+.review .reviewAutorSocial {
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.review .reviewAutorSocial i:hover {
+  cursor: pointer;
+  color: #e2e2e2;
+}
+.reviewCaption {
+  margin: 0;
+}
+.reviewText {
+  line-height: 20px;
+}
+.progress-bar {
+  background-color: #338988;
+}
+.progress {
+  height: 9px;
+}
+.reviewIndex {
+  font-size: 2.4rem;
+}
+.helpful .glyphicon-thumbs-up {
+  color: #f3c419;
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+}
+.helpful .glyphicon-thumbs-down {
+  position: relative;
+  top: 4px;
+  color: #c4b619;
+  cursor: pointer;
+}
+.ofiiceWrap {
+  background: url(../images/offices.jpg) no-repeat center center, rgba(255, 255, 255, 0.8);
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding-bottom: 100px;
+}
+.ofiiceWrap .officeCaption {
+  padding: 100px;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+.ofiiceWrap .addresses {
+  margin: 0;
+}
+.ofiiceWrap .addresses:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.ofiiceWrap .addresses .address img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ofiiceWrap .addresses .address .addressUs {
+  background-color: #ffffff;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.ofiiceWrap .addresses .address .addressUs .addressUsCaption {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ofiiceWrap .addresses .address .addressUsButton {
+  outline: none;
+  border: none;
+  border-top: 1px solid #e2e2e2;
+  padding: 7px 25px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: #f5f5f5;
+  color: #000000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+}
+.ofiiceWrap .addresses .address .addressUsButton:hover {
+  color: #f3c419;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .ofiiceWrap .addresses .address {
+    margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .ofiiceWrap .addresses .address {
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 479px) {
+  .ofiiceWrap .addresses .address {
+    margin-bottom: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .ofiiceWrap .addresses .address:last-child {
+    width: 100%;
+  }
+}
+footer {
+  padding: 20px 10px;
+  background-color: #000000;
+  font-size: 2rem;
+  color: #ffffff;
+}
+iframe {
+  width: 100%;
+}

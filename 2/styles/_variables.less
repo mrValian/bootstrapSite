@@ -1,0 +1,70 @@
+@ColorWhite: #ffffff;
+@ColorGreen: #28f31b;
+@ColorBlack: #000000;
+@ColorGrey: #e2e2e2;
+
+.respond-to(@device, @content) {
+    & when (@device =phones) {
+        @media all and (max-width: 479px) {
+            @content();
+        }
+    }
+
+    & when (@device =wide-phones) {
+        @media all and (min-width: 480px) and (max-width: 767px) {
+            @content();
+        }
+    }
+
+    & when (@device =tablets) {
+        @media all and (min-width: 768px) and (max-width: 991px) {
+            @content();
+        }
+    }
+
+    & when (@device =small-desktops) {
+        @media all and (min-width: 992px) and (max-width: 1199px) {
+            @content();
+        }
+    }
+
+    & when (@device =lg-desktops) {
+        @media all and (min-width: 1200px) and (max-width: 1440px) {
+            @content();
+        }
+    }
+
+    & when (@device =xlg-desktops) {
+        @media all and (min-width: 1441px) {
+            @content();
+        }
+    }
+}
+
+@captionSet: {
+    padding: 100px;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+};
+
+@borderSet: {
+    border: 1px solid @ColorGrey;
+    border-radius: 5px;
+    overflow: hidden;
+};
+
+.serviceCol {
+    .respond-to(wide-phones;{
+        width: 50%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    });
+}
+
+.unitCol {
+    padding: 30px;
+    box-sizing: border-box;
+}
